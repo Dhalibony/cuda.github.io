@@ -1,0 +1,239 @@
+/*service starts*/
+	.service{
+		background-color: #17C1A4;
+	}
+	.service .seperator{
+		background-color: #15A58C;
+	}
+	.service h1,.service h4{
+		color: white;
+	}
+	.service p{
+		color: white;
+	}
+	.service .img{
+		padding-top: 50px;
+		padding-bottom: 50px;
+		height: 220px;
+	}
+/*service end*/
+
+/*team start*/
+	.team{
+		background-color: #e7f1f8;
+	}
+	.team img{
+		height: 150px;
+		width: 150px;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	.team a{
+		text-decoration: none;
+	}
+	.team h1,.team h4{
+		color: #3c4761;
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+	.team h1{
+		letter-spacing: 4px;
+	}
+	.team .seperator{
+		background-color: #bdd1df;
+	}
+	.team h6 {
+		color: #30bae7;
+		margin-bottom: 20px;
+	}
+	.team .col-md-3 p{
+		color: #3c4761;
+		height: 140px
+
+	}
+	.team .social-icon i{
+		color: white;
+		padding: 10px;
+		text-decoration: none;
+		background-color: #bdd1df;
+		border-radius: 50%;
+		height: 35px;
+	    width: 35px;
+	    margin: 4px;
+	    transition: width 2s, height 2s, transform 2s;
+	}
+	.team .social-icon i:hover{
+		background-color: grey;
+		transform: rotate(180deg);
+	}
+/*team end*/
+
+/*skills start*/
+	.skills{
+		background-color: #ffffff;
+		color: #3c4761;
+	}
+	.skills .seperator{
+		background-color: #bdd1df;
+	}
+
+	/*progress bar starts*/
+
+		svg.radial-progress {
+		  height: auto;
+		  max-width: 200px;
+		  padding: 1em;
+		  transform: rotate(-90deg);
+		  width: 100%;
+		}
+
+		svg.radial-progress circle {
+		  fill: rgba(0,0,0,0);
+		  stroke: #fff;
+		  stroke-dashoffset: 219.91148575129; /* Circumference */
+		  stroke-width: 7;
+		}
+
+		svg.radial-progress circle.incomplete { opacity: 0.25; }
+
+		svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; /* Circumference */ }
+
+		svg.radial-progress text {
+		  fill: #3c4761;
+		  font: 400 1em/1 'Oswald', sans-serif;
+		  text-anchor: middle;
+		}
+
+		/*** COLORS ***/
+		/* Primary */
+
+		svg.radial-progress-1:nth-of-type(6n+1) circle { stroke: #30bae7; }
+		svg.radial-progress-2:nth-of-type(6n+1) circle { stroke: #d74680; }
+		svg.radial-progress-3:nth-of-type(6n+1) circle { stroke: #15c7a8; }
+		svg.radial-progress-4:nth-of-type(6n+1) circle { stroke: #eb7d4b; }
+	/*progress bar end*/
+/*skills end*/
+
+/*portfolio starts*/
+	.portfolio{
+		background-color: #ffdd99;
+	}
+	.portfolio h1,.portfolio h4{
+		color: #393939;
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+	.team h6 {
+		color: #393939;
+		margin-bottom: 20px;
+	}
+	.portfolio .seperator{
+		background-color: #e5c37f;
+	}
+	.portfolio .p-btn{
+		background-color: #e5c37f;
+		padding: 4px 20px;
+		margin: 5px 5px;
+		text-transform: uppercase;
+		width: 90px;
+
+	}
+	.portfolio .is-checked{
+		background-color: white;
+	}
+	.portfolio .grid div{
+		margin-top: 50px;
+	}
+/*portfolio end*/
+
+/*about us start*/
+	.about{
+		background-color: #d74680;
+		color: #ffffff;
+	}
+	.about .seperator{
+		background-color: #b73c6d;
+	}
+	.about img{
+		height: 80px;
+		width: 80px;
+		margin-top: 0px;
+		margin-bottom: 25px;
+	}
+	.about .media-body{
+		color: #ffffff;
+	}
+	.about .media-body h4{
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+	.about .media-body h6{
+		color: #ffdd99;
+	}
+/*about us end*/
+
+/*get in tounch start*/
+	.get-in-touch{
+		background-color: #3c5499;
+		color: #ffffff;
+	}
+	.get-in-touch .seperator{
+		background-color: #273a71;
+	}
+	.get-in-touch form{
+		/*padding: 0px 7.5rem;*/
+	}
+	.get-in-touch form input{
+		background-color: #273a71;
+		border: 0px;
+		color: white;
+
+	}
+	.get-in-touch textarea{
+		height: 10rem;
+		background-color: #273a71;
+		border: 0px;
+	}
+	.get-in-touch form input::placeholder{
+		color: white;
+		padding: 5px;
+	}
+	.get-in-touch form textarea::placeholder{
+		color: white
+	}
+
+	.get-in-touch .btn-primary {
+	    color: #fff;
+	    background-color: #30bae7;
+	    border-color: #30bae7;
+	    border-bottom: 0.3125rem solid #299ec5;
+	}
+	.get-in-touch .btn{
+		font-weight: 600;
+	}
+/*get in tounch end*/
+
+/*footer starts*/
+	.footer{
+		background-color: #344b8e;
+		text-align: center;
+
+	}
+	.footer .social-links{
+		list-style: none;
+		margin-top: 1rem;
+		padding-left: 0px;
+		padding-right: 0px;
+
+	}
+	.footer .social-links li{
+		display: inline;
+	}
+	.footer .social-links li a{
+		text-decoration: none;
+		text-transform: capitalize;
+		color: white !important;
+		padding: 3px 25px;
+		background: transparent;
+	}
+/*footer end*/
